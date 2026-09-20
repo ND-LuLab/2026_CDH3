@@ -4,7 +4,7 @@
 config <- list(
   output_root = "results",
   inputs = list(
-    jee_all = "data/single_cell/lee.rds"
+    jee_all = "data/single_cell/Jee.rds"
   )
 )
 
@@ -45,7 +45,7 @@ library(ggplot2)
 library(RColorBrewer)
 library(patchwork)
 library(grid)
-dataset <- "lee"
+dataset <- "Jee"
 out.dir <- paste0(output_dir("07_jee_prostate_single_cell"), "/")
 ds <- readRDS(input_file("jee_all"))
 require_columns(ds@meta.data, c("seurat_clusters"), "Seurat metadata")
