@@ -75,7 +75,7 @@ are listed at the top of each script.
 
 The single-cell cohorts are Song (GSE176031), Wong (GSE185344),
 Jee (GSE221603), Jin (GSE263995) and Xu (GSE180286). Input filenames are
-`song.rds`, `wong.rds`, `lee.rds` (Jee), `Jin.rds` and `Xu.rds`.
+`song.rds`, `wong.rds`, `Jee.rds`, `Jin.rds` and `Xu.rds`.
 
 Single-cell scripts begin with processed objects and apply dataset-specific
 cell annotations and epithelial-cell selection. Cluster IDs and UMAP coordinate
